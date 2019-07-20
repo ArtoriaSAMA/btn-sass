@@ -1,0 +1,33 @@
+/**
+ * 按钮size
+ */
+@mixin base-btn-size-l {
+    width: 96px;
+    height: 38px;
+    line-height: 38px;
+}
+
+@mixin base-btn-size-m {
+    width: 72px;
+    height: 30px;
+    line-height: 30px;
+}
+
+@mixin base-btn-size-s {
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+}
+
+/**
+ * 文字按钮尺寸
+ */
+@mixin char-btn-size-l {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+@mixin char-btn-size-m{
+    font-size: 12px;
+    line-height: 16px;
+}
